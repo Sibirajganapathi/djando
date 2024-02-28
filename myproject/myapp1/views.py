@@ -9,7 +9,5 @@ def function(request,x):
 class admiral(View):
     def get(self,request):
         return HttpResponse("sibiraj")
-def home(request):
-    a={}
-    a[]
-    return render(request,'simple.html',a)
+def home(request):            
+    return render(request,'simple.html')
